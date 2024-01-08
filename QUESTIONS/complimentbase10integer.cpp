@@ -1,4 +1,11 @@
-int m = n;
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n ; 
+    cout << "ENTER A NUMBER : ";
+    cin>>n;
+
+    int m = n;
     int mask = 0;
 
      if(n ==0){
@@ -14,3 +21,5 @@ int m = n;
 
     int ans = (~n) & mask ;
     cout << ans;
+
+}
